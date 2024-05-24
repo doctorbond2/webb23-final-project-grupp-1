@@ -10,7 +10,7 @@ jobs:
     strategy:
       max-parallel: 4
     services:
-      postgres:
+      db:
         image: postgres
         env:
           POSTGRES_USER: postgres
